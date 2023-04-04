@@ -15,6 +15,11 @@ header {
   background: #666;
   color: #f6f6f6;
   position: sticky;
+  top: 0;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  padding: 0 20px;
 }
 
 .profile-picture {
@@ -23,14 +28,15 @@ header {
   height: 50px;
 }
 
+.message-date {
+  text-align: center;
+}
+
 .chatbox-container {
-  display: flex;
-  flex-direction: column;
   margin: auto;
   background-color: #1d1d1b;
   color: #f6f6f6;
   max-width: 300px;
-  align-items: left;
   box-shadow: 0px 2px 19px 0px #666;
 }
 
@@ -46,13 +52,16 @@ header {
 }
 
 .message-box-joe .message-content {
+  display: flex;
   background-color: #b8d344;
   border-radius: 20px 20px 0 20px;
   box-shadow: 0px 3px 10px 0px #d5ec6f;
+  justify-content: end;
 }
 
 .message-box-joe {
-  align-self: flex-end;
+align-items: flex-end;}
+
 footer {
   display: flex;
   background-color: #666;
