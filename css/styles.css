@@ -53,4 +53,11 @@ header {
 
 .message-box-joe {
   align-self: flex-end;
+footer {
+  display: flex;
+  background-color: #666;
+  justify-content: space-around;
+  position: sticky;
+  bottom: 0;
+  padding: 15px;
 }
