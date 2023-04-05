@@ -87,6 +87,13 @@ main {
   align-self: flex-end;
 }
 
+input {
+  background-color: #000000;
+  border-radius: 20px;
+  width: 200px;
+  height: 20px;
+}
+
 footer {
   display: flex;
   background-color: #666;
