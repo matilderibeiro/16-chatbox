@@ -36,6 +36,10 @@ main {
 .message-date {
   text-align: center;
   font-family: 'Libre Franklin', sans-serif;
+  font-size: 12px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  color: #666;
 }
 
 .chatbox-container {
@@ -43,14 +47,28 @@ main {
   background-color: #1d1d1b;
   color: #f6f6f6;
   font-family: 'Libre Franklin', sans-serif;
+  font-size: 14px;
   max-width: 300px;
   box-shadow: 0px 2px 19px 0px #666;
 }
 
+.gif-interrogation-point {
+  width: 110px;
+  height: 110px;
+  border-radius: 20px;
+  box-shadow: 0px 2px 19px 0px #666;
+  margin-top: 10px;
+}
+
 .message-box {
-  margin: 0px 20px 20px 20px;
+  margin: 0px 20px 0px 20px;
   max-width: 65%;
 }
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  }
+
 .message-content {
   background-color: #666;
   border-radius: 20px 20px 20px 0;
@@ -64,10 +82,13 @@ main {
   border-radius: 20px 20px 0 20px;
   box-shadow: 0px 3px 10px 0px #d5ec6f;
   justify-content: end;
+  align-self: flex-end;
 }
 
 .message-box-joe {
 align-items: flex-end;}
+  align-self: flex-end;
+}
 
 footer {
   display: flex;
