@@ -1,7 +1,7 @@
 body {
   max-width: 320px;
   margin: auto;
-  background: #ddd;
+  background: rgb(28, 28, 28);
 }
 
 img {
@@ -12,20 +12,24 @@ img {
 header {
   display: flex;
   align-items: center;
-  background: #666;
+  background: rgb(67, 67, 67);
   color: #f6f6f6;
   position: sticky;
   top: 0;
   flex-direction: column;
   justify-content: space-between;
-  margin-bottom: 20px;
-  padding: 0 20px;
+  padding-top: 10px;
   font-family: 'Libre Franklin', sans-serif;
+  font-size: 10px;
 }
 
+main {
+  display: flex;
+  flex-direction: column;
+}
 .profile-picture {
-  border-radius: 30px;
-  width: 50px;
+  border-radius: 100%;
+  width: 40px;
   height: 50px;
 }
 
