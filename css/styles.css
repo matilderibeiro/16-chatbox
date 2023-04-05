@@ -20,6 +20,7 @@ header {
   justify-content: space-between;
   margin-bottom: 20px;
   padding: 0 20px;
+  font-family: 'Libre Franklin', sans-serif;
 }
 
 .profile-picture {
@@ -30,12 +31,14 @@ header {
 
 .message-date {
   text-align: center;
+  font-family: 'Libre Franklin', sans-serif;
 }
 
 .chatbox-container {
   margin: auto;
   background-color: #1d1d1b;
   color: #f6f6f6;
+  font-family: 'Libre Franklin', sans-serif;
   max-width: 300px;
   box-shadow: 0px 2px 19px 0px #666;
 }
